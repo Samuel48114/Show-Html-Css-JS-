@@ -1,0 +1,90 @@
+body {
+    color: #050613;
+    text-align: left;
+    font: 14px Verdana;
+    }
+
+#topo {
+    width: 100%;
+    height: 30%;
+    background-color: #020803;
+    float: left;
+    text-align: center;
+    color: #eaeaf1;
+    font: 40px Verdana;
+    }
+
+#conteudo {
+    width: 80%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    background-color: #fafcfa;
+    color: #050508;
+    }
+
+
+
+#menu {
+        width: 20%;
+        height: 100%;
+        background-color: #141818;
+        margin: 0;
+        padding: 0;
+        float: left;
+        
+    }
+
+#menu ul li {
+    margin: 0; 
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    }
+    
+
+#menu a:link {
+    width: 100%;
+    height: 10%;
+    color: #f4f5fa;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 50px;
+    display: block;
+    text-align: center;
+    
+    }
+
+#rodape {
+    width: 100%;
+    height: 10%;
+    background-color: #000000;
+    float: left;
+    text-align: center;
+    color: #f4f5fa;
+    
+    }
+.tamanho_bunner{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tamanho_discos{
+    width: 231;
+    height: 332;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.tamanho_img_shows {
+    width: 564;
+    height: 375;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.conteudo_fotos{
+    width: 50%;
+    height: 150%;
+}

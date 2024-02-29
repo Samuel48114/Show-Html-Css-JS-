@@ -1,0 +1,87 @@
+<html><head>
+    <title> marshmello </title>
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+
+    <script type="text/javascript">
+
+      array1 = new Array ("show1.jpg", "show.2.jpg", "albun2.png");
+
+      function comeco(){
+          document.getElementById("imgId").src = array1[0];
+          document.form.texto.value="0"
+      }
+
+      function mais(){
+          document.form.texto.value = Math.floor (1+ 1 - 2 + (documennt.form.texto.value) * 1 + 1);
+          if (document.form.texto.value > 2)
+          {document.form.texto.value = 0 }
+      }
+
+      function menos(){
+          document.form.texto.value = Math.floor (1+ 1 - 2 + (documennt.form.texto.value) * 1 - 1);
+          if (document.form.texto.value < 0)
+          {document.form.texto.value = 2 }
+      }
+
+      function regular(){
+        document.getElementById("imgId").src = array1[document.form.texto.value];
+          setTimeout("regular()", 1);
+      }
+      </script>
+    
+    </head>
+    
+    <body onLoad="comeco();regular()">
+     
+    
+    <div id="topo">
+       <h1> SHOWS </h1>
+    </div>
+    
+    <div id="conteudo" >
+        <h2>Marshmello está atualmente em turnê em 4 países e tem 4 shows programados.</h2>
+        <br>
+        <a id="aId" class="tamanho_img_shows"> <img id="imgId" class="tamanho_img_shows"></a>
+        <br>
+          <a id="prev" href="javascript:menos()">Anterior</a>|
+          <a id="next" href="javascript:mais()">Próximo</a>        
+        <br>
+        <h2>Próximos concertos</h2><br>
+        <h3>
+        novembro
+        (26)
+        Abbotsford (Canadá)
+        One Love Festival (conjunto de DJ híbrido)
+        <br>
+        dezembro
+        (1),
+        Riyadh (Arábia Saudita),
+        festival da tempestade
+        <br>
+        dezembro
+        (31),
+        Miami Beach (EUA),
+        Fontainebleau Hotel & Resort
+        <br>
+        fevereiro
+        (24),
+        (2023),
+        Cidade do México (México),
+        EDC México</h3>
+        <br>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="home.html">INÍCIO</a></li>
+        <li><a href="historico.html">HISTÓRICO</a></li>
+        <li><a href="discografia.html">DISCOGRAFIA</a></li>
+        <li><a href="Shows.html">SHOWS</a></li>
+      </ul>
+    </div>
+  
+    <div id="rodape">
+       <h3> Site desenvolvido por samuel - todos os direitos reservados - 2022 </h3>
+    </div>
+    
+
+    </body></html>

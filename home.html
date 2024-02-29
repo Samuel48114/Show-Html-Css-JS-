@@ -1,0 +1,50 @@
+<html><head>
+    <title> marshmello </title>
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+
+    <script type="text/javascript">
+
+        function slide1(){
+            document.getElementById("id").src="wallpaperflare.com_wallpaper.jpg";
+            setTimeout("slide2()",2500)
+            document.getElementById("aid").href="wallpaperflare.com_wallpaper.jpg";
+        }
+
+        function slide2(){
+            document.getElementById("id").src="wallpaperflare.com_wallpaper (2).jpg";
+            setTimeout("slide3()",2500)
+            document.getElementById("aid").href="wallpaperflare.com_wallpaper (2).jpg";
+        }
+
+        function slide3(){
+            document.getElementById("id").src="wallpaperflare.com_wallpaper (3).jpg";
+            setTimeout("slide1()",2500)
+            document.getElementById("aid").href="wallpaperflare.com_wallpaper (3).jpg";
+        }
+    </script>
+    </head>
+    
+    <body onload="slide1()">
+    
+    <div id="topo">
+       <h1> marshmello </h1>
+    </div>
+    
+    <div id="conteudo">
+       <a id="aid" class="tamanho_bunner"> <img id="id"class="tamanho_bunner" > </a>
+    </div>
+    
+    <div id="menu">
+      <ul>
+        <li><a href="home.html">INÍCIO</a></li>
+        <li><a href="historico.html">HISTÓRICO</a></li>
+        <li><a href="discografia.html">DISCOGRAFIA</a></li>
+        <li><a href="Shows.html">SHOWS</a></li>
+      </ul>
+    </div>
+    <div id="rodape">
+       <h3> Site desenvolvido por samuel - todos os direitos reservados - 2022 </h3>
+    </div>
+    
+
+    </body></html>
